@@ -1,0 +1,100 @@
+input{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 39px;
+
+
+/* Orange */
+
+border: 1px solid #E67F1E;
+border-radius: 30px;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .icon {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .terms{
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 10%;
+    top: 70%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #303030;
+  }
+  
+  .button{
+      display: flex;
+      justify-content: center;
+  }
+  button{
+    position: absolute;
+    width: 318px;
+    height: 60px;
+    left: 28px;
+    top: 80%;
+    color: white;
+    background: #20A7DB;
+    border-radius: 30px;
+  }
+.cheers{
+    display: flex;
+    justify-content: center;
+}
+.cheers p{
+    position: absolute;
+    width: 198px;
+    height: 26px;
+    left: 89px;
+    top: 10%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108.92%;
+    /* or 26px */
+    
+    text-align: center;
+    
+    /* Orange */
+    
+    color: #E67F1E;
+}
+.userName p{
+    position: absolute;
+width: 105px;
+height: 14px;
+left: 135px;
+top: 20%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12.9231px;
+line-height: 108.92%;
+/* identical to box height, or 14px */
+
+text-align: center;
+
+/* Purple */
+
+color: #7A1E76;
+}
