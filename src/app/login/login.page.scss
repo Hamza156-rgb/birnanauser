@@ -1,0 +1,56 @@
+input{
+    box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 39px;
+
+
+/* Orange */
+
+border: 1px solid #E67F1E;
+border-radius: 30px;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .icon {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .terms{
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 10%;
+    top: 70%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #303030;
+  }
+  
+  .button{
+      display: flex;
+      justify-content: center;
+  }
+  button{
+    position: absolute;
+    width: 318px;
+    height: 60px;
+    left: 28px;
+    top: 80%;
+    color: white;
+    background: #20A7DB;
+    border-radius: 30px;
+  }
