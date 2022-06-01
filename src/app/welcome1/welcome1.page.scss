@@ -1,9 +1,5 @@
 .text h1{
-    position: absolute;
-    width: 302px;
-    height: 58px;
-    left: 37px;
-    margin-top: 30%;
+    margin-top: 40%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -14,44 +10,25 @@
 
 }
 .text p{
-    position: absolute;
-width: 318px;
-height: 44px;
-left: 29px;
-margin-top: 50%;
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* or 157% */
-
 text-align: center;
-
-/* Black */
-
 color: #000000;
 }
 .slider{
     display: flex;
     justify-content: center;  
-    margin-top: 70%;
 }
 
-
 button{
-    width:90%;
+    width:100%;
     background: #20A7DB;
     border-radius: 32px;
     height: 60px;
-top: 707px;
-position: absolute;
+margin-top: 20%;
 color: white;
 font-size: 20px;
-}
-.button{
-    display: flex;
-    justify-content: center;
-    
 }
