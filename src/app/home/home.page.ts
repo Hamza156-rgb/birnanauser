@@ -8,9 +8,9 @@ import { Router, } from '@angular/router';
 export class HomePage {
 
   constructor(public router: Router) {
-    // setTimeout(() => {
-    //   this.router.navigateByUrl('/welcome');
-    // }, 1000);
+    setTimeout(() => {
+      this.router.navigateByUrl('/welcome');
+    }, 2000);
   
   }
 
