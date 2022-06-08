@@ -1,86 +1,80 @@
-ion-searchbar{
-    box-sizing: border-box;
-
-width: 100%;
-    height: 41.94px;
-    
-    
-    border: 0.69906px solid #CACACA;
-    border-radius: 22.3699px;
-
-
-
+ion-searchbar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 41.94px;
+  border: 0.69906px solid #cacaca;
+  border-radius: 22.3699px;
 }
-.header{
-    margin-top: 5%;
-    justify-content: center;
+.header {
+  margin-top: 5%;
+  justify-content: center;
 }
-.near-store p{
-    
-width: 129px;
-height: 27px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 27px;
-/* identical to box height */
-
-
-/* Black */
-
-color: #000000;
+.near-store p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
 }
-
-.text p{
-    width: 129px;
-height: 27px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
-
-
-/* Black */
-
-color: #000000;
+.text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #000000;
 }
-
 .centered {
-    position: absolute;
-    top: 70%;
-    width: 65%;
-    left: 45%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-   
-    color: white;
+  position: absolute;
+  top: 70%;
+  width: 65%;
+  left: 45%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: #000000;
+  /* Shadow cart */
+  box-shadow: 9px 0px 19px 2px rgba(0, 0, 0, 0.26);
+  border-radius: 0px 0px 18px 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+}
 
-    background: #000000;
-/* Shadow cart */
 
-box-shadow: 9px 0px 19px 2px rgba(0, 0, 0, 0.26);
-border-radius: 0px 0px 18px 18px;
-  }
 
-  ion-image {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .featured .centered {
-    position: absolute;
-    top: 90%;
-    height: 5vh;
-    width: 85%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    color: white;
-    background: #030919;
-    padding: 5%;
-  }
+ion-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.featured .centered {
+  position: absolute;
+  top: 90%;
+  height: 5vh;
+  width: 85%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: #030919;
+  padding: 5%;
+
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+
+
+
+
+
+
+}

@@ -1,9 +1,8 @@
 .text h1 {
-    font-family: "Inter";
+    font-family: "Poppins";
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    font-weight: 600;
+    font-size: 20px;
     text-align: center;
     color: #000000;
 }
@@ -12,7 +11,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 22px;
     text-align: center;
     color: #000000;
 }
@@ -23,4 +21,18 @@ ion-textarea {
     box-sizing: border-box;
     border: 1px solid #e67f1e;
     border-radius: 18px;
+}
+
+h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ion-button {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
 }

@@ -1,26 +1,51 @@
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
-  
-  
-  .top-right {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-  }
-  
-  .top-left {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-  }
- .end{
-    display: flex;
-    justify-content: space-between; 
- }
-  .last{
-      float: right;
-  }
+.top-right {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+.last {
+  float: right;
+}
+
+.fruits {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fresh {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+
+.select p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
