@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar mode="ios">
+    <div class="ion-padding">
+      <ion-icon name="arrow-back-outline" style="font-size: 25px;" [routerLink]="['/checkout']"></ion-icon>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-text-center">
+    <h3>Checkout</h3>
+  </div>
+  <div class="address ion-padding">
+    <ion-img src="../assets/checkout/dot.png" style="width: 10%;">
+    </ion-img>
+    <ion-img src="../assets/checkout/orangeline.png" style="width: 25%;"></ion-img>
+    <ion-img src="../assets/checkout/line.png" style="width: 25%;"></ion-img>
+    <ion-img src="../assets/checkout/transparent.png" style="width: 10%;"></ion-img>
+  </div>
+
+  <ion-segment scrollable value="heart">
+    <ion-segment-button value="home">
+      <ion-button shape="round" fill="outline">Cash on Delivery</ion-button>
+    </ion-segment-button>
+    <ion-segment-button value="heart">
+      <ion-button color="secondary">Credit Card</ion-button>
+    </ion-segment-button>
+    <ion-segment-button value="pin">
+      <ion-button shape="round" fill="outline">Card</ion-button>
+    </ion-segment-button>
+
+
+  </ion-segment>
+
+  <div class="card">
+    <ion-segment scrollable value="heart">
+      <ion-segment-button value="home">
+        <ion-img src="../assets/checkout/creditcard.png">
+        </ion-img>
+      </ion-segment-button>
+
+      <ion-segment-button value="pin">
+        <ion-img src="../assets/checkout/creditcard.png">
+        </ion-img>
+      </ion-segment-button>
+      <ion-segment-button value="heart">
+        <ion-img src="../assets/checkout/creditcard.png">
+        </ion-img>
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+
+
+  
+  <div class="form">
+    <ion-row>
+      <ion-col size="12" class="ion-padding">
+        <ion-label class="ion-padding">Card Holder Name</ion-label>
+        <ion-input mode="ios"></ion-input>
+      </ion-col>
+      <ion-col size="12" class="ion-padding">
+        <ion-label class="ion-padding">Card Number</ion-label>
+        <ion-input mode="ios"></ion-input>
+     
+      </ion-col>
+     
+
+      <ion-col size="6" class="ion-padding">
+        <ion-label class="ion-padding">Month/Year</ion-label>
+        <ion-input mode="ios"></ion-input>
+     
+      </ion-col>
+      <ion-col size="6" class="ion-padding">
+        <ion-label class="ion-padding">CVV</ion-label>
+        <ion-input mode="ios"></ion-input>
+     
+      </ion-col>
+
+      <ion-col size="12" class="ion-padding">
+        <ion-label class="ion-padding">Country</ion-label>
+        <ion-input mode="ios"></ion-input>
+
+        <ion-list>
+          <ion-radio-group  >
+            <ion-item>
+              <ion-label>Save credit card details</ion-label>
+              <ion-radio slot="start" color="success"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+     
+      </ion-col>
+      <ion-col size="1"></ion-col>
+<ion-col size="10">
+  <ion-button  color="secondary" shape="round" style="width: 100%;" [routerLink]="['/order-process']">NEXT</ion-button>
+</ion-col>
+    
+    </ion-row>
+  </div>
+
+
+</ion-content>
