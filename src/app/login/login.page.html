@@ -29,22 +29,19 @@
     </ion-col>
     <ion-col size="12" class="ion-padding">
       <ion-input mode="ios"></ion-input>
-      <p style="text-align: center;color: #E67F1E;">Forgot Password?</p>
+      <p class="ion-padding" style="text-align: center;color: #E67F1E;">Forgot Password?</p>
     </ion-col>
   </ion-row>
-
-
-    <div class="button">
       <ion-row>
         <ion-col size="1"></ion-col>
         <ion-col size="10">
-          <button [routerLink]="['/main-page']">
-            Log In
-          </button>
+          <ion-button mode="ios" color="secondary" shape="round"   [routerLink]="['/main-page']">
+            SIGN IN
+          </ion-button >
         </ion-col>
         <ion-col size="1"></ion-col>
       </ion-row> 
-    </div>
+    
   </ion-card-content>
 </ion-card>
 </div>

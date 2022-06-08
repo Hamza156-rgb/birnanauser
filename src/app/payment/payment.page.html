@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar mode="ios">
+  <ion-toolbar>
     <div class="ion-padding">
       <ion-icon name="arrow-back-outline" style="font-size: 25px;" [routerLink]="['/checkout']"></ion-icon>
     </div>
@@ -93,11 +93,9 @@
       </ion-col>
       <ion-col size="1"></ion-col>
 <ion-col size="10">
-  <ion-button  color="secondary" shape="round" style="width: 100%;" [routerLink]="['/order-process']">NEXT</ion-button>
+  <ion-button mode="ios" color="secondary" shape="round" style="width: 100%;" [routerLink]="['/order-process']">CONFIRM ORDER</ion-button>
 </ion-col>
     
     </ion-row>
   </div>
-
-
 </ion-content>

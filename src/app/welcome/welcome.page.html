@@ -8,33 +8,45 @@
 </ion-header>
 
 <ion-content>
-  <div class="image">
+  <div class="image ion-padding">
     <ion-img src="../assets/splash/blue.png"></ion-img>
   </div>
-  <div class="text">
+  <div class="text ion-padding">
     <h1>Welcome to Birnana</h1>
     <p>Grocery application</p>
     <ion-title size="small">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
     </ion-title>
- 
+
   </div>
 
-  <div class="slider">
-    <ion-row >
-    
-      <ion-col size="4"><ion-img src="../assets/splash/green.png"></ion-img></ion-col>
-      
-      <ion-col size="4">   <ion-img src="../assets/splash/grey.png"></ion-img></ion-col>
-      
-      <ion-col size="4"><ion-img src="../assets/splash/grey.png"></ion-img></ion-col>
-    
+  <div class="slider ion-padding">
+    <ion-row>
+
+      <ion-col size="4">
+        <ion-img src="../assets/splash/green.png"></ion-img>
+      </ion-col>
+
+      <ion-col size="4">
+        <ion-img src="../assets/splash/grey.png"></ion-img>
+      </ion-col>
+
+      <ion-col size="4">
+        <ion-img src="../assets/splash/grey.png"></ion-img>
+      </ion-col>
+
     </ion-row>
   </div>
- 
 
- 
-  <div class="button">
-    <button [routerLink]="['/welcome1']">Next</button>
-  </div>
+<ion-row>
+  <ion-col size="1"></ion-col>
+  <ion-col size="10">
+    <ion-button color="secondary" shape="round" style="width: 100%;" [routerLink]="['/welcome1']">Next</ion-button>
+  </ion-col>
+  <ion-col size="1"></ion-col>
+</ion-row>
+
+
+   
+  
 </ion-content>

@@ -1,12 +1,10 @@
-<ion-header>
- 
-</ion-header>
 
 <ion-content>
-  <div class="image" style="margin-top:10% ;">
+  <div class="image ion-padding">
     <ion-img src="../assets/welcome/2.png" ></ion-img>
   </div>
 
+ 
   <div class="text">
     <ion-row>
       <ion-col size="1"></ion-col>
@@ -24,36 +22,32 @@
   
   </div>
 
-  <div class="slider">
+
+  <div class="slider ion-padding">
     <ion-row >
-    
-
-      
       <ion-col size="4">   <ion-img src="../assets/splash/grey.png"></ion-img></ion-col>
-
-      
       <ion-col size="4"><ion-img src="../assets/splash/grey.png"></ion-img></ion-col>
-      
       <ion-col size="4"><ion-img src="../assets/splash/green.png"></ion-img></ion-col>
-    
     </ion-row>
   </div>
 
-<div class="account">
-  <ion-row>
-    <ion-col size="1"></ion-col>
-    <ion-col size="10"><button [routerLink]="['/registration']">Create an account</button></ion-col>
-    <ion-col size="1"></ion-col>
-  </ion-row>
-  
-</div>
 
-<div class="login">
-  <ion-row>
-    <ion-col size="1"></ion-col>
-    <ion-col size="10"><button [routerLink]="['/login']">Login</button></ion-col>
-    <ion-col size="1"></ion-col>
-  </ion-row>
-</div>
+  <div class="account">
+    <ion-row>
+      <ion-col size="1"></ion-col>
+      <ion-col size="10"><button [routerLink]="['/registration']">Create an account</button></ion-col>
+      <ion-col size="1"></ion-col>
+    </ion-row>
+    
+  </div>
+  
+  <div class="login">
+    <ion-row>
+      <ion-col size="1"></ion-col>
+      <ion-col size="10"><button [routerLink]="['/login']">Login</button></ion-col>
+      <ion-col size="1"></ion-col>
+    </ion-row>
+  </div>
+
 
 </ion-content>
