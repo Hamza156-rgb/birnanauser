@@ -181,16 +181,32 @@
 <ion-footer mode="ios" style="background-color:white">
   <ion-row>
     <ion-col class="ion-padding" size="3">
-      <ion-icon name="home" style="color: #E67F1E;font-size:30px"></ion-icon>
+      <ion-tab-button tab="caregivers">
+        <ion-icon name="home" style="font-size:30px" [routerLink]="['/main-page']"></ion-icon>
+      </ion-tab-button>
+
     </ion-col>
     <ion-col class="ion-padding" size="3">
-      <ion-icon name="repeat" style="color: #E67F1E;font-size:30px"></ion-icon>
+      <ion-tab-button tab="">
+        <ion-icon name="repeat" style="font-size:30px"></ion-icon>
+      </ion-tab-button>
+
     </ion-col>
     <ion-col class="ion-padding" size="3">
-      <ion-icon name="cart" style="color: #E67F1E;font-size:30px"></ion-icon>
+      <ion-tab-button tab="">
+        <ion-icon name="cart" style="font-size:30px"></ion-icon>
+      </ion-tab-button>
+
     </ion-col>
     <ion-col class="ion-padding" size="3">
-      <ion-icon name="person-circle" style="color: #E67F1E;font-size:30px"></ion-icon>
+      <ion-tab-button tab="">
+        <ion-icon name="person-circle" style="font-size:30px" [routerLink]="['/profile']"></ion-icon>
+      </ion-tab-button>
+
     </ion-col>
   </ion-row>
+
+
+
+
 </ion-footer>

@@ -1,13 +1,8 @@
 ion-input{
-
 border: 1px solid #E67F1E;
 border-radius: 30px;
 color: black;
 }
-
-// .ion-padding ion-input{
-//   height: 50px;
-// }
 
 .image {
     position: relative;
@@ -54,3 +49,8 @@ line-height: 24px;
 text-align: center;
 text-transform: uppercase;
 }
+
+
+ion-input{
+  --padding-start: 10px;
+  }
