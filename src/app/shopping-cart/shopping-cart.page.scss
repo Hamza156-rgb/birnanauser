@@ -31,4 +31,20 @@
     color: #E67F1E;
  }
 
+ .image {
+   position: relative;
+   text-align: center;
+   color: white;
  
+ }
+
+ .center{
+   position: absolute;
+   top: 90%;
+   left: 50%;
+   width: 100%;
+   transform: translate(-50%, -50%);
+   
+background: #20A7DB;
+border-radius: 18px;
+ }

@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col size="4">
+        <div class="ion-text-start ion-padding">
+          <ion-icon name="close-circle" style="color: black;font-size:30px;" [routerLink]="['/main-page']"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <div class="ion-text-center">
+          <h4>Filters</h4>
+        </div>
+      </ion-col>
+      <ion-col size="4"></ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+      <ion-list>
+        <ion-radio-group value="biff">
+          <ion-list-header>
+            <ion-label>Categories</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>Eggs</ion-label>
+            <ion-radio slot="start" value="1" color="success"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Noodles & Pasta</ion-label>
+            <ion-radio slot="start" value="2" color="success"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Chips & Crisps</ion-label>
+            <ion-radio slot="start" value="3" color="success"></ion-radio>
+          </ion-item>
+    
+          <ion-item>
+            <ion-label>Fast Food</ion-label>
+            <ion-radio slot="start" value="4" color="success"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    
+    
+    
+    
+      <ion-list>
+        <ion-radio-group value="biff">
+          <ion-list-header>
+            <ion-label>Stores</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>Individual Callection</ion-label>
+            <ion-radio slot="start" value="1" color="success"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Cocola</ion-label>
+            <ion-radio slot="start" value="2" color="success"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Ifad</ion-label>
+            <ion-radio slot="start" value="3" color="success"></ion-radio>
+          </ion-item>
+    
+          <ion-item>
+            <ion-label>Kazi Farmas</ion-label>
+            <ion-radio slot="start" value="4" color="success"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    
+    
+    
+      <ion-row>
+        <ion-col size="1"></ion-col>
+        <ion-col size="10">
+          <ion-button color="secondary" shape="round" style="width: 100%;" size="large" [routerLink]="['/search']">Apply Filter</ion-button>
+        </ion-col>
+        <ion-col size="1"></ion-col>
+      </ion-row>
+   
+ 
+
+</ion-content>
