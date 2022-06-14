@@ -1,9 +1,157 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>search</ion-title>
+
+    <ion-row>
+      <ion-col size="10">
+        <ion-searchbar showCancelButton="never" mode="ios" class="ion-padding"></ion-searchbar>
+      </ion-col>
+      <ion-col size="2">
+        <ion-icon name="options" style="font-size: 30px;float: right;" ></ion-icon>
+      </ion-col>
+    </ion-row>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-row class="ion-padding">
+    <ion-col size="6">
+      <ion-card>
+    
+        <ion-card-header>
+          <ion-img src="../assets/searchPage/1.png" style="width: 100%;"></ion-img>
+        </ion-card-header>
+      
+        
+        <ion-card-content >
+          <h1>Egg Chicken Red</h1>
+          <h5>4pcs, Price</h5>
+          <ion-row class="ion-padding-top">
+         
+            <ion-col size="8">
+            <p>$1.99</p>  
+            </ion-col>
+            <ion-col size="4">
+              <ion-icon name="add-circle" style="font-size: 30px ; color
+            :green"></ion-icon>
+            </ion-col>
+        
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card>
+      
+        <ion-card-header>
+          <ion-img src="../assets/searchPage/2.png" style="width: 100%;"></ion-img>
+        </ion-card-header>
+      
+      
+        <ion-card-content>
+          <h1>Egg Chicken White</h1>
+          <h5>180g, Price</h5>
+          <ion-row class="ion-padding-top">
+           
+
+            <ion-col size="8"><p>$1.99</p></ion-col>
+            <ion-col size="4">
+              <ion-icon name="add-circle" style="font-size: 30px ; color
+            :green"></ion-icon>
+            </ion-col>
+           
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+    <ion-col size="6">
+      <ion-card>
+      
+        <ion-card-header>
+          <ion-img src="../assets/searchPage/3.png" style="width: 100%;"></ion-img>
+        </ion-card-header>
+      
+      
+        <ion-card-content>
+          <h1>Egg Pasta </h1>
+          <h5>30gm, Price</h5>
+          <ion-row class="ion-padding-top">
+           
+
+            <ion-col size="8"><p>$15.99</p></ion-col>
+            <ion-col size="4">
+              <ion-icon name="add-circle" style="font-size: 30px ; color
+            :green"></ion-icon>
+            </ion-col>
+           
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+
+
+
+    <ion-col size="6">
+      <ion-card>
+      <ion-card-header>
+        <ion-img src="../assets/searchPage/4.png" style="width: 100%;"></ion-img>
+      </ion-card-header>
+         
+      
+      
+        <ion-card-content>
+          <h1>Egg Noodles</h1>
+          <h5>2L, Price</h5>
+          <ion-row class="ion-padding-top">
+           
+
+            <ion-col size="8"><p>$15.99</p></ion-col>
+            <ion-col size="4">
+              <ion-icon name="add-circle" style="font-size: 30px ; color
+            :green"></ion-icon>
+            </ion-col>
+           
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
 
 </ion-content>
+
+
+<ion-footer mode="ios" style="background-color:white;color:black">
+  <ion-row>
+    <ion-col class="ion-padding" size="3">
+      <ion-tab-button tab="caregivers">
+        <ion-icon name="home" style="font-size:30px" [routerLink]="['/main-page']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="3">
+      <ion-tab-button tab="">
+        <ion-icon name="repeat" style="font-size:30px;color: #E67F1E;"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="3">
+      <ion-tab-button tab="">
+        <ion-icon name="cart" style="font-size:30px"  [routerLink]="['/shopping-cart']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="3">
+      <ion-tab-button tab="">
+        <ion-icon name="person-circle" style="font-size:30px" [routerLink]="['/profile']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+  </ion-row>
+
+
+
+
+</ion-footer>
