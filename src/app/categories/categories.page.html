@@ -1,180 +1,39 @@
-<ion-header >
+<ion-header>
   <ion-toolbar mode="ios" color="secondary">
     <div class="ion-padding">
-    <ion-buttons slot="start" >
-      <ion-back-button defaultHref="/main-page" style="color:white"></ion-back-button>
-    </ion-buttons>
-  <ion-icon name="options" style="font-size: 30px;float: right;" class="ion-padding" ></ion-icon>
-</div>
-<div class="ion-padding">
-  <h1>Fruits Category</h1>
-  <p class="items">87 Items</p>
-</div>
-</ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/main-page" style="color:white"></ion-back-button>
+      </ion-buttons>
+      <ion-icon name="options" style="font-size: 30px;float: right;" class="ion-padding"></ion-icon>
+    </div>
+    <div class="ion-padding">
+      <h1>Fruits Category</h1>
+      <p class="items">87 Items</p>
+    </div>
+  </ion-toolbar>
 </ion-header>
 <ion-content>
-  <ion-searchbar mode="ios" style="background: #F0F0F0;" ></ion-searchbar>
+  <ion-searchbar mode="ios" style="background: #F0F0F0;"></ion-searchbar>
 
   <div class="container">
-  <ion-row class="ion-padding">
-  
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/1.png" [routerLink]="['/item-details']"></ion-img>
-  
-  <div class="top-left">
-    <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
+    <ion-row class="ion-padding">
+
+      <ion-col size="6" class="ion-padding" *ngFor="let items of categories">
+        <ion-img [src]='items.image' [routerLink]="['/item-details']"></ion-img>
+
+        <div class="top-left">
+          <ion-img src="../assets/Fruits category/heart.png"></ion-img>
+        </div>
+        <div class="bottom-left">
+
+          <h4>
+            {{items.name}}
+          </h4>
+          <p> {{items.price}} </p>
+        </div>
+      </ion-col>
+    </ion-row>
   </div>
-  <div class="bottom-left">
-  
-    <h4>
-      Avocado
-    </h4>
-    <p>$6.7</p>
-  </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/2.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/3.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/4.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/5.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/6.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/7.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/8.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/9.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/10.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/11.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-
-    <ion-col size="6" class="ion-padding">
-      <ion-img src="../assets/Fruits category/12.png" ></ion-img>
-      <div class="top-left">
-        <ion-img src="../assets/Fruits category/heart.png" ></ion-img>
-      </div>
-      <div class="bottom-left">
-        <h4>
-          Avocado
-        </h4>
-        <p>$6.7</p>
-      </div>
-    </ion-col>
-  
-  </ion-row>
-  </div>
-
-
-
-
 </ion-content>
 
 
@@ -188,7 +47,7 @@
     </ion-col>
     <ion-col class="ion-padding" size="3">
       <ion-tab-button tab="">
-        <ion-icon name="repeat" style="font-size:30px"  [routerLink]="['/search']"></ion-icon>
+        <ion-icon name="repeat" style="font-size:30px" [routerLink]="['/search']"></ion-icon>
       </ion-tab-button>
 
     </ion-col>
