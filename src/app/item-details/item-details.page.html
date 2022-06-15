@@ -84,19 +84,11 @@
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
       </p>
     </ion-row>
-
-
-
-
-
-
-
   </div>
 </div>
   <div class="ion-padding">
-
     <ion-row>
-
+      <ion-col size="1"></ion-col>
       <ion-col size="4">
         <ion-button shape="round" color="success" size="large">
           <ion-icon slot="icon-only" name="heart"></ion-icon>
@@ -104,26 +96,14 @@
       </ion-col>
 
       <ion-col size="6">
-
         <ion-button shape="round" color="secondary" size="large" [routerLink]="['/shopping-cart']">
-          <!-- <ion-label>
-        <h3>ADD TO CART</h3>
-      </ion-label>
-      <br>
-      <ion-label >
-        <p style="color: white;" class="ion-padding">$5.07</p>
-      </ion-label> -->
-
           <p>ADD TO CART
             <br>
-
             $889
           </p>
-
-
         </ion-button>
       </ion-col>
-      <ion-col size="2"></ion-col>
+      <ion-col size="1"></ion-col>
     </ion-row>
 
   </div>
@@ -131,33 +111,41 @@
 
 
 
-
 <ion-footer mode="ios" style="background-color:white;color:black">
   <ion-row>
-    <ion-col class="ion-padding" size="3">
+    
+    <ion-col class="ion-padding" size="2.4">
       <ion-tab-button tab="caregivers">
-        <ion-icon name="home" style="font-size:30px" [routerLink]="['/main-page']"></ion-icon>
+        <ion-icon name="home" style="font-size:30px; " [routerLink]="['/main-page']"></ion-icon>
       </ion-tab-button>
 
     </ion-col>
-    <ion-col class="ion-padding" size="3">
+    <ion-col class="ion-padding" size="2.4">
       <ion-tab-button tab="">
-        <ion-icon name="repeat" style="font-size:30px" [routerLink]="['/search']"></ion-icon>
+        <ion-icon name="repeat" style="font-size:30px " [routerLink]="['/search']"></ion-icon>
       </ion-tab-button>
 
     </ion-col>
-    <ion-col class="ion-padding" size="3">
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="heart" style="font-size:30px ; " [routerLink]="['/categories']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
       <ion-tab-button tab="">
         <ion-icon name="cart" style="font-size:30px" [routerLink]="['/shopping-cart']"></ion-icon>
       </ion-tab-button>
 
     </ion-col>
-    <ion-col class="ion-padding" size="3">
+    <ion-col class="ion-padding" size="2.4">
       <ion-tab-button tab="">
         <ion-icon name="person-circle" style="font-size:30px" [routerLink]="['/profile']"></ion-icon>
       </ion-tab-button>
 
     </ion-col>
+  
   </ion-row>
 
 
