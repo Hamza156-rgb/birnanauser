@@ -1,12 +1,12 @@
 <ion-header>
-  <ion-toolbar >
+  <ion-toolbar>
     <ion-row class="ion-padding-top">
       <ion-col size="4">
         <ion-img src="../assets/profile/1.png" style="width:70%;"></ion-img>
       </ion-col>
       <ion-col size="6">
-        <p>John Doe  
-          <ion-icon  name="pencil-outline" style="color: #53B175;padding-left: 30px;font-size: 20px;"></ion-icon>
+        <p>John Doe
+          <ion-icon name="pencil-outline" style="color: #53B175;padding-left: 30px;font-size: 20px;"></ion-icon>
         </p>
         <p>Johndoe@gmail.com</p>
       </ion-col>
@@ -20,7 +20,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="person" slot="start" class="edit-icon"></ion-icon>
+        <ion-icon name="bag-handle-outline" slot="start" class="edit-icon"></ion-icon>
 
         <p>Orders</p>
 
@@ -33,7 +33,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="calendar-sharp" slot="start" class="edit-icon"></ion-icon>
+        <ion-icon name="card-outline" slot="start" class="edit-icon"></ion-icon>
 
         <p>My Details</p>
 
@@ -46,7 +46,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="mail" slot="start" class="edit-icon"></ion-icon>
+        <ion-icon name="location-outline" slot="start" class="edit-icon"></ion-icon>
 
         <p>Delivery Address</p>
 
@@ -59,7 +59,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="pin-sharp" slot="start" class="edit-icon"></ion-icon>
+        <ion-img src="../assets/profile/payment.png" slot="start" class="edit-icon"></ion-img>
 
         <p>Payment Methods</p>
 
@@ -72,7 +72,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="call-sharp" slot="start" class="edit-icon"></ion-icon>
+        <ion-img src="../assets/profile/promo.png" slot="start" class="edit-icon"></ion-img>
 
         <p>Promo Cord</p>
 
@@ -85,7 +85,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="eye-sharp" slot="start" class="edit-icon"></ion-icon>
+        <ion-icon name="notifications-outline" slot="start" class="edit-icon"></ion-icon>
 
         <p>Notifications</p>
 
@@ -97,7 +97,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="eye-sharp" slot="start" class="edit-icon"></ion-icon>
+        <ion-icon name="help-circle-outline" slot="start" class="edit-icon"></ion-icon>
 
         <p>Help</p>
 
@@ -110,7 +110,7 @@
     <ion-col size="12">
       <ion-item>
 
-        <ion-icon name="eye-sharp" slot="start" class="edit-icon"></ion-icon>
+        <ion-icon name="alert-circle-outline" slot="start" class="edit-icon"></ion-icon>
 
         <p>About</p>
 
@@ -122,13 +122,14 @@
 
     <ion-col size="1"></ion-col>
     <ion-col size="10">
-      <ion-button color="medium" style="width: 100%;" size="large" [routerLink]="['/login']">
+      <button   [routerLink]="['/login']">
 
-        <ion-icon slot="start" name="exit-outline"></ion-icon>
+        <ion-icon slot="start" style="font-size: 20px;float:left;padding-left: 2%;" name="exit-outline"></ion-icon>
 
         Logout
 
-      </ion-button>
+      </button>
+
     </ion-col>
     <ion-col size="1"></ion-col>
   </ion-row>
@@ -137,7 +138,7 @@
 
 <ion-footer mode="ios" style="background-color:white;color:black">
   <ion-row>
-    
+
     <ion-col class="ion-padding" size="2.4">
       <ion-tab-button tab="caregivers">
         <ion-icon name="home" style="font-size:30px; " [routerLink]="['/main-page']"></ion-icon>
@@ -169,7 +170,7 @@
       </ion-tab-button>
 
     </ion-col>
-  
+
   </ion-row>
 
 
