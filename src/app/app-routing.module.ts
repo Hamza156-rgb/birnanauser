@@ -83,6 +83,19 @@ const routes: Routes = [
     path: 'filter',
     loadChildren: () => import('./filter/filter.module').then( m => m.FilterPageModule)
   },
+
+  {
+    path: 'orders',
+    loadChildren: () => import('./profile/orders/orders.module').then( m => m.OrdersPageModule)
+  },
+  {
+    path: 'edit-account',
+    loadChildren: () => import('./profile/account/account.module').then( m => m.AccountPageModule)
+  },
+  {
+    path: 'promo-codes',
+    loadChildren: () => import('./profile/promo/promo.module').then( m => m.PromoPageModule)
+  },
  
 ];
 

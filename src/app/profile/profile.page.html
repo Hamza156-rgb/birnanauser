@@ -18,7 +18,7 @@
 <ion-content>
   <ion-row>
     <ion-col size="12">
-      <ion-item lines="none">
+      <ion-item lines="none" [routerLink]="['/orders']">
 
         <ion-icon name="bag-handle-outline" slot="start" class="edit-icon"></ion-icon>
 
@@ -31,18 +31,18 @@
     </ion-col>
 
     <ion-col size="12">
-      <ion-item lines="none">
+      <ion-item lines="none" [routerLink]="['/edit-account']">
 
         <ion-icon name="card-outline" slot="start" class="edit-icon"></ion-icon>
 
-        <p>My Details</p>
+        <p>My Account</p>
 
         <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
 
 
       </ion-item>
     </ion-col>
-
+<!-- 
     <ion-col size="12">
       <ion-item lines="none">
 
@@ -54,7 +54,7 @@
 
 
       </ion-item>
-    </ion-col>
+    </ion-col> -->
 
     <ion-col size="12">
       <ion-item lines="none">
@@ -74,7 +74,7 @@
 
         <ion-img src="../assets/profile/promo.png" slot="start" class="edit-icon"></ion-img>
 
-        <p>Promo Cord</p>
+        <p>Coupons</p>
 
         <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
 
