@@ -26,43 +26,31 @@ ion-searchbar {
   /* identical to box height */
   color: #000000;
 }
-.centered {
-  position: absolute;
-  top: 70%;
-  width: 65%;
-  left: 45%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  color: white;
-  background: #000000;
-  /* Shadow cart */
-  box-shadow: 9px 0px 19px 2px rgba(0, 0, 0, 0.26);
-  border-radius: 0px 0px 18px 18px;
-  font-family: "Poppins";
+
+
+.categories {
+  background-image: url('../../assets/main/background.png') ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.categories ion-img{
+  width: 100%;
+  
+}
+.name{
+  font-size: 10px !important;
+}
+
+.centered{
+  font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  /* identical to box height */
-}
-ion-image {
-  position: relative;
+  font-weight: 500;
+  font-size: 14px;
   text-align: center;
-  color: white;
+  color: #000000;
 }
-.featured .centered {
-  position: absolute;
-  top: 90%;
-  height: 5vh;
-  width: 85%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  color: white;
-  background: #030919;
-  padding: 5%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-}
+
+

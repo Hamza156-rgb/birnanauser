@@ -14,8 +14,8 @@
 
     
       <ion-row>
-        <ion-col size="6" class="ion-padding" *ngFor="let items of stores">
-          <ion-img [src]="items.image" [routerLink]="['/categories']" ></ion-img>
+        <ion-col size="6" class="ion-padding"  *ngFor="let items of stores">
+           <ion-img [src]="items.image" [routerLink]="['/categories']" ></ion-img>
           <div class="centered">{{items.name}}</div>
         </ion-col>
       </ion-row>

@@ -14,11 +14,11 @@ export class StoresPage implements OnInit {
     },
     {
       'image': '../assets/stores/2.png',
-      'name': 'Justice',
+      'name': 'Uni Mart',
     },
     {
       'image': '../assets/stores/3.png',
-      'name': 'Toys store',
+      'name': 'Justice',
     },
     {
       'image': '../assets/stores/4.png',
@@ -26,11 +26,11 @@ export class StoresPage implements OnInit {
     },
     {
       'image': '../assets/stores/1.png',
-      'name': 'Grocery',
+      'name': 'Toy Shop',
     },
     {
       'image': '../assets/stores/2.png',
-      'name': 'Fruit store',
+      'name': '7 Eleven',
     },
   ]
 

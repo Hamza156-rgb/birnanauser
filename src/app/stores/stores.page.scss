@@ -1,37 +1,41 @@
-ion-image {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .featured .centered {
-    position: absolute;
-    top: 80%;
-    height: 5vh;
-    width: 65%;
-    left: 46%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    color: white;
-    background: #030919;
-    padding: 5%;
-    border-radius: 0px 0px 28.3204px 28.3204px;
+// ion-image {
+//     position: relative;
+//     text-align: center;
+//     color: white;
+//   }
+//   .featured .centered {
+//     position: absolute;
+//     top: 80%;
+//     height: 5vh;
+//     width: 65%;
+//     left: 46%;
+//     text-align: center;
+//     transform: translate(-50%, -50%);
+//     color: white;
+//     background: #030919;
+//     padding: 5%;
+//     border-radius: 0px 0px 28.3204px 28.3204px;
 
+//     font-family: 'Poppins';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 18px;
+// line-height: 27px;
+//   }
 
+//   h1{
+//     font-family: 'Poppins';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 20px;
+//   }
 
-
-
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-  }
-
-  h1{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-  }
-
-  
+.centered {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
