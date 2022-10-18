@@ -1,10 +1,143 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>orders</ion-title>
+    <ion-icon class="ion-padding" name="chevron-back-outline" style="font-size: 30px;color: black;"
+      [routerLink]="['/profile']"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
+
+
+
 <ion-content>
-  dsfdsfds
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-start">
+          <h2>Orders</h2>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="ion-text-end">
+          <ion-icon class="ion-padding-top" name="notifications" style="font-size: 30px;color: #1B7CED;"></ion-icon>
+
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-row class="ion-padding">
+
+    <ion-col size="4">
+      <button class="active">Active</button>
+    </ion-col>
+    <ion-col size="4">
+      <button class="success">Completed</button>
+    </ion-col>
+    <ion-col size="4">
+      <button class="cancel">Cancelled</button>
+    </ion-col>
+
+  </ion-row>
+
+
+
+
+  <ion-card style="background: #FFFFFF;
+  border-radius: 18px;">
+
+    <ion-row class="ion-padding">
+      <ion-col size="3">
+        <div class="image">
+          <ion-img src="../assets/item details/1.png"></ion-img>
+          <div class="center">
+            <p class="color">$7.2</p>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <p>MUSHROOM</p>
+        <h3>
+          Oyster Mushroom
+        </h3>
+        <p>Quantity: 2</p>
+      </ion-col>
+      <ion-col size="5">
+        <div class="ion-text-end ion-padding-top">
+          <ion-img src="../assets/item details/del.png" style="width: 20%;float: right;"></ion-img>
+          <p style="margin-top: 50%;"> Total Price: 5.4$</p>
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+
+  <ion-card style="background: #FFFFFF;
+  border-radius: 18px;">
+
+    <ion-row class="ion-padding">
+      <ion-col size="3">
+        <div class="image">
+          <ion-img src="../assets/item details/2.png"></ion-img>
+          <div class="center">
+            <p class="color">$7.2</p>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <p>MUSHROOM</p>
+        <h3>
+          Oyster Mushroom
+        </h3>
+        <p>Quantity: 2</p>
+      </ion-col>
+      <ion-col size="5">
+        <div class="ion-text-end ion-padding-top">
+          <ion-img src="../assets/item details/del.png" style="width: 20%;float: right;"></ion-img>
+          <p style="margin-top: 50%;"> Total Price: 5.4$</p>
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+
+  <ion-card style="background: #FFFFFF;
+  border-radius: 18px;">
+
+    <ion-row class="ion-padding">
+      <ion-col size="3">
+        <div class="image">
+          <ion-img src="../assets/item details/3.png"></ion-img>
+          <div class="center">
+            <p class="color">$7.2</p>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <p>MUSHROOM</p>
+        <h3>
+          Oyster Mushroom
+        </h3>
+        <p>Quantity: 2</p>
+      </ion-col>
+      <ion-col size="5">
+        <div class="ion-text-end ion-padding-top">
+          <ion-img src="../assets/item details/del.png" style="width: 20%;float: right;"></ion-img>
+          <p style="margin-top: 50%;"> Total Price: 5.4$</p>
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+
+
+  <h5>
+    Total Amount
+  </h5>
+  <h1>$9.0</h1>
+
+
 
 </ion-content>

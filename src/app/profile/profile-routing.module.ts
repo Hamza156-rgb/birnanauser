@@ -19,6 +19,14 @@ const routes: Routes = [
   {
     path: 'promo',
     loadChildren: () => import('./promo/promo.module').then( m => m.PromoPageModule)
+  },
+  {
+    path: 'help',
+    loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   }
 ];
 

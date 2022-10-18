@@ -1,0 +1,88 @@
+p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+h2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+color: #000000;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background: #6bbbd7;
+    border-radius: 18px;
+}
+.color {
+    font-family: "Poppins";
+
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.active {
+    width: 100%;
+    height: 22.54px;
+    color: white;
+    background: #1e93bc;
+    border-radius: 3.01096px;
+}
+
+.success {
+    width: 100%;
+    height: 22.54px;
+    color: white;
+    background: #2fa94e;
+    border-radius: 3.01096px;
+}
+
+.cancel {
+    width: 100%;
+    height: 22.54px;
+    color: white;
+    background: #d9503f;
+    border-radius: 3.01096px;
+}
+
+h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+padding-left: 6%;
+}
+
+h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+color: #000000;
+padding-left: 25%;
+}

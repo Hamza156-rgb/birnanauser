@@ -96,6 +96,14 @@ const routes: Routes = [
     path: 'promo-codes',
     loadChildren: () => import('./profile/promo/promo.module').then( m => m.PromoPageModule)
   },
+  {
+    path: 'help',
+    loadChildren: () => import('./profile/help/help.module').then( m => m.HelpPageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./profile/about/about.module').then( m => m.AboutPageModule)
+  },
  
 ];
 

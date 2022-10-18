@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon class="ion-padding" name="chevron-back-outline" style="font-size: 30px;color: black;"
+      [routerLink]="['/profile']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+
+  <div class="ion-padding-top" style="display: flex;justify-content:center">
+
+    <ion-img src="../assets/profile/1.png"></ion-img>
+
+  </div>
+
+
+  <ion-row>
+    <ion-col>
+      <div class="ion-text-center">
+        <h3>Store 1</h3>
+        <p> store1@gmail.com
+          <ion-icon name="pencil-outline" style="color: #53B175;font-size: 20px;padding-bottom: 5px;"></ion-icon>
+
+        </p>
+      </div>
+    </ion-col>
+  </ion-row>
+
+
+  <ion-row class="ion-padding">
+    <ion-col>
+      <div class="ion-text-start">
+        <h3>About Section
+          <ion-icon name="pencil-outline" style="color: #53B175;font-size: 20px;padding-left: 15px;"></ion-icon>
+
+        </h3>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum has been t
+          he industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of
+          type and scrambled it to make a type specimen
+          book. It has survived not only five centuries, but
+          also the leap into electronic typesetting, r
+          emaining essentially unchanged. It was
+          popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing
+
+        </p>
+      </div>
+    </ion-col>
+
+  </ion-row>
+
+
+
+  <ion-row class="ion-padding">
+
+    <ion-col size="12">
+      <button  [routerLink]="['/profile']">
+        Update
+      </button>
+    </ion-col>
+
+  </ion-row>
+
+
+
+
+
+</ion-content>
