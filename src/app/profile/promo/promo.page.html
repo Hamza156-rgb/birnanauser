@@ -1,9 +1,141 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
-    <ion-title>promo</ion-title>
+    <ion-row class="ion-padding-top">
+      <ion-col size="4">
+        <ion-img src="../assets/profile/1.png" style="width:80%;"></ion-img>
+      </ion-col>
+      <ion-col size="6">
+        <p>John Doe
+        </p>
+        <p>Johndoe@gmail.com</p>
+      </ion-col>
+      <ion-col size="2"></ion-col>
+    </ion-row>
   </ion-toolbar>
-</ion-header>
-
+</ion-header> -->
 <ion-content>
 
+
+  <ion-row >
+    <ion-col size="4">
+      <ion-img src="../assets/profile/1.png" style="width:80%;"></ion-img>
+    </ion-col>
+    <ion-col size="6">
+      <p>John Doe
+      </p>
+      <p>Johndoe@gmail.com</p>
+    </ion-col>
+    <ion-col size="2"></ion-col>
+  </ion-row>
+
+
+
+
+
+
+
+
+<ion-row>
+  <ion-col size="2">
+    <ion-icon name="arrow-back-outline" [routerLink]="['/profile']" style="font-size:30px"></ion-icon>
+  </ion-col>
+</ion-row>
+
+
+
+  <ion-row>
+    <ion-col size="6">
+      <ion-card>
+        <ion-img src="../assets/profile/picture.png"></ion-img>
+        <ion-card-content>
+          <h4>10% off</h4>
+          <h5>Starbucks Coffee</h5>
+          <h6>Jul 1 - Jul 9</h6>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card>
+        <ion-img src="../assets/profile/uber.png" style="width:100%;"></ion-img>
+        <ion-card-content>
+          <h4>10% off</h4>
+          <h5>Starbucks Coffee</h5>
+          <h6>Jul 1 - Jul 9</h6>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+
+  <ion-row>
+    <ion-col>
+      <div class="ion-text-center">
+        <h3>Get More Coupons</h3>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="1"></ion-col>
+    <ion-col size="10">
+      <button   [routerLink]="['/login']">
+        <ion-icon slot="start" style="font-size: 20px;float:left;padding-left: 2%;" name="exit-outline"></ion-icon>
+        Logout
+      </button>
+    </ion-col>
+    <ion-col size="1"></ion-col>
+  </ion-row>
+
+
+
+
 </ion-content>
+
+
+
+
+
+
+
+
+<ion-footer mode="ios" style="background-color:white;color:black">
+  <ion-row>
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="caregivers">
+        <ion-icon name="home" style="font-size:30px; " [routerLink]="['/main-page']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="repeat" style="font-size:30px; " [routerLink]="['/search']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="heart" style="font-size:30px ; " [routerLink]="['/categories']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="cart" style="font-size:30px; " [routerLink]="['/shopping-cart']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="person-circle" style="font-size:30px; color: #E67F1E; " [routerLink]="['/profile']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+
+  </ion-row>
+
+
+
+
+</ion-footer>
