@@ -1,10 +1,116 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>notification</ion-title>
   </ion-toolbar>
-</ion-header>
-
+</ion-header> -->
 <ion-content>
+  <ion-icon class="ion-padding" name="chevron-back-outline" style="font-size: 30px;color: black;"
+    [routerLink]="['/profile']"></ion-icon>
+  <h3 class="ion-padding">Notification</h3>
+  <ion-item lines="none">
+    <ion-label>Turn on push notifications</ion-label>
+    <ion-toggle slot="start" [checked]="true"></ion-toggle>
+  </ion-item>
+
+
+
+  <ion-row>
+    <ion-col size="12">
+      <h6 class="ion-padding">August 27, 2021</h6>
+      <ion-card style="background: #55ACEE;">
+        <ion-row>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-icon name="notifications-outline" style="color: white;font-size: 40px;"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <p class="statuse">Order Update</p>
+            <p class="messagee">The order is on its way.</p>
+          </ion-col>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-img src="../assets/notification/2.png"></ion-img>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+    <ion-col size="12">
+      <h6 class="ion-padding">August 25, 2021</h6>
+      <ion-card>
+        <ion-row>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-icon name="notifications-outline" style="color: black;font-size: 40px;"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <p class="status">Order Completed</p>
+            <p class="message">The order is on its way.</p>
+          </ion-col>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-img src="../assets/notification/3.png"></ion-img>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+      <ion-card>
+        <ion-row>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-icon name="notifications-outline" style="color: black;font-size: 40px;"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <p class="status">Order Completed</p>
+            <p class="message">The order is on its way.</p>
+          </ion-col>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-img src="../assets/notification/3.png"></ion-img>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+      <ion-card>
+        <ion-row>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-icon name="notifications-outline" style="color: black;font-size: 40px;"></ion-icon>
+          </ion-col>
+          <ion-col size="8">
+            <p class="status">Order Completed</p>
+            <p class="message">The order is on its way.</p>
+          </ion-col>
+          <ion-col size="2" class="ion-padding-top">
+            <ion-img src="../assets/notification/3.png"></ion-img>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+
+
+
+
+
+
+
+  <ion-row class="ion-padding">
+
+    <ion-col size="12">
+      <button [routerLink]="['/add-payment-card']">
+        Done
+      </button>
+    </ion-col>
+
+  </ion-row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </ion-content>
 
