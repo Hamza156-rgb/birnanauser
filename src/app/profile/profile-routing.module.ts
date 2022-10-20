@@ -27,6 +27,18 @@ const routes: Routes = [
   {
     path: 'about',
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
+  },
+  {
+    path: 'notification',
+    loadChildren: () => import('./notification/notification.module').then( m => m.NotificationPageModule)
+  },
+  {
+    path: 'add-payment',
+    loadChildren: () => import('./add-payment/add-payment.module').then( m => m.AddPaymentPageModule)
+  },
+  {
+    path: 'add-payment-card',
+    loadChildren: () => import('./add-payment-card/add-payment-card.module').then( m => m.AddPaymentCardPageModule)
   }
 ];
 

@@ -1,0 +1,184 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon class="ion-padding" name="chevron-back-outline" style="font-size: 30px;color: black;"
+      [routerLink]="['/profile']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+  <ion-row class="ion-padding">
+    <ion-col size="10">
+      <div class="ion-text-start">
+        <h3>Add Payment Method</h3>
+      </div>
+    </ion-col>
+    <ion-col size="2">
+      <div class="ion-text-end">
+        <ion-icon class="ion-padding-top" name="notifications" style="font-size: 30px;color: #1B7CED;"></ion-icon>
+
+      </div>
+    </ion-col>
+  </ion-row>
+
+
+
+  <h4 class="ion-padding">Shipping address</h4>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-row>
+        <ion-col>
+          <div class="ion-text-start">
+            <p>Jane Doe</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="ion-text-end">
+            <p class="change">Change</p>
+
+          </div>
+        </ion-col>
+
+        <p>3 Newbridge Court
+          Chino Hills, CA 91709, United States</p>
+
+
+
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-row class="ion-padding">
+    <ion-col>
+      <div class="ion-text-start">
+        <h5>Payment</h5>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div class="ion-text-end">
+        <p class="change">Change</p>
+
+      </div>
+    </ion-col>
+    <ion-row>
+      <ion-img src="../assets/payment/master.jpg" style="width: 15%;"></ion-img>
+      <h6>**** **** **** 3947</h6>
+    </ion-row>
+
+
+  </ion-row>
+
+
+
+
+
+  <ion-grid>
+    <h2>
+      Delivery method
+    </h2>
+    <ion-row>
+
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-img src="../assets/payment/1.png"></ion-img>
+          </ion-card-header>
+          <ion-card-content>
+            2-3 days
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-img src="../assets/payment/1.png"></ion-img>
+          </ion-card-header>
+          <ion-card-content>
+            2-3 days
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-img src="../assets/payment/1.png"></ion-img>
+          </ion-card-header>
+          <ion-card-content>
+            2-3 days
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+  <ion-row class="ion-padding">
+
+    <ion-col size="12">
+      <button [routerLink]="['/add-payment-card']">
+        Done
+      </button>
+    </ion-col>
+
+  </ion-row>
+
+
+</ion-content>
+
+
+
+<ion-footer mode="ios" style="background-color:white;color:black">
+  <ion-row>
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="caregivers">
+        <ion-icon name="home" style="font-size:30px; " [routerLink]="['/main-page']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="repeat" style="font-size:30px; " [routerLink]="['/search']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="heart" style="font-size:30px ; " [routerLink]="['/categories']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="cart" style="font-size:30px; " [routerLink]="['/shopping-cart']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="person-circle" style="font-size:30px; color: #E67F1E; " [routerLink]="['/profile']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+
+  </ion-row>
+
+
+
+
+</ion-footer>
+
+
+
+
+
+
+
+

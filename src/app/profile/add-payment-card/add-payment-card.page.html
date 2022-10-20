@@ -1,0 +1,180 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon class="ion-padding" name="chevron-back-outline" style="font-size: 30px;color: black;"
+      [routerLink]="['/account']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row class="ion-padding">
+    <ion-col size="10">
+      <div class="ion-text-start">
+        <h3>Add Cards</h3>
+      </div>
+    </ion-col>
+    <ion-col size="2">
+      <div class="ion-text-end">
+        <ion-icon class="ion-padding-top" name="notifications" style="font-size: 30px;color: #1B7CED;"></ion-icon>
+
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <h1>
+    Your payment cards
+  </h1>
+
+  <ion-row class="ion-padding">
+    <ion-col size="12">
+      <ion-img src="../assets/payment/4.jpg"></ion-img>
+    </ion-col>
+
+    <ion-list>
+  
+        <ion-item lines="none">
+          <ion-label>Use as default payment method</ion-label>
+          <ion-checkbox slot="start" color="dark"  class="checkbox"></ion-checkbox>
+        </ion-item>
+  
+    </ion-list>
+
+
+    <ion-col size="12">
+      <ion-img src="../assets/payment/5.jpg"></ion-img>
+    </ion-col>
+
+    <ion-list>
+ 
+        <ion-item lines="none">
+          <ion-label>Use as default payment method</ion-label>
+          <ion-checkbox slot="start" color="dark" class="checkbox" ></ion-checkbox>
+        </ion-item>
+   
+    </ion-list>
+  </ion-row>
+
+
+
+  <ion-icon name="add-circle" class="ion-padding" style="font-size: 40px;float: right;color: black;" id="trigger-button"></ion-icon>
+
+
+  <ion-modal trigger="trigger-button" >
+    <ng-template>
+      <ion-card class="ion-padding">
+        <ion-card-header>
+          <h2> Add New Card</h2>
+
+        </ion-card-header>
+
+        <ion-card-content>
+
+
+
+          <ion-row>
+            <ion-col size="12" class="ion-padding">
+
+
+              <ion-input placeholder="Name on card"></ion-input>
+
+
+            </ion-col>
+
+            <ion-col size="12" class="ion-padding">
+              <ion-input placeholder="Card number">
+                <ion-img src="../assets/payment/3.png" style="padding-left: 4%;"></ion-img>
+              </ion-input>
+
+
+            </ion-col>
+            <ion-col size="12" class="ion-padding">
+              <ion-input placeholder="Expiry Date">
+              </ion-input>
+            </ion-col>
+
+            <ion-col size="12" class="ion-padding">
+              <ion-input placeholder="CVV">
+                <ion-icon name="help-circle-outline" style="color: #DADADA; font-size: 25px;padding-left: 4%;">
+                </ion-icon>
+              </ion-input>
+            </ion-col>
+          </ion-row>
+
+
+
+
+          <ion-row class="ion-padding">
+
+            <ion-col size="12">
+              <button
+                (click)="closeModal()" [routerLink]="['/profile']">
+                Done
+              </button>
+            </ion-col>
+
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+
+    </ng-template>
+  </ion-modal>
+
+
+ 
+
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+<ion-footer mode="ios" style="background-color:white;color:black">
+  <ion-row>
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="caregivers">
+        <ion-icon name="home" style="font-size:30px; " [routerLink]="['/main-page']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="repeat" style="font-size:30px; " [routerLink]="['/search']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="heart" style="font-size:30px ; " [routerLink]="['/categories']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="cart" style="font-size:30px; " [routerLink]="['/shopping-cart']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+    <ion-col class="ion-padding" size="2.4">
+      <ion-tab-button tab="">
+        <ion-icon name="person-circle" style="font-size:30px; color: #E67F1E; " [routerLink]="['/profile']"></ion-icon>
+      </ion-tab-button>
+
+    </ion-col>
+
+  </ion-row>
+
+
+
+
+</ion-footer>
+
+
+
+
