@@ -118,6 +118,10 @@ const routes: Routes = [
     path: 'add-payment-card',
     loadChildren: () => import('./profile/add-payment-card/add-payment-card.module').then(m => m.AddPaymentCardPageModule)
   },
+  {
+    path: 'success',
+    loadChildren: () => import('./success/success.module').then( m => m.SuccessPageModule)
+  },
 
 
 
